@@ -370,4 +370,9 @@ footer{
 }
 
 
-
+button:hover{
+  background-color: yellowgreen;
+  transition: calc(.5s);
+  cursor: pointer;
+   transform: scale(1.05);
+}
