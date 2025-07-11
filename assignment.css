@@ -29,8 +29,7 @@ body{
   background-color: rgb(245, 248, 255);
 }
 header{
-  
-  width: 100%;
+  max-width: 1440px;
   background-image: url(Hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -40,8 +39,6 @@ header{
 }
 
 nav{
-  /* width: 1140px; */
-  /* border: 5px solid tomato; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +47,6 @@ nav{
 }
 .logo{
   width: 99px;
-  /* height: 48px; */
   font-size: 34px;
   font-weight: 700;
   padding-left: 100px;
@@ -61,7 +57,7 @@ nav{
 nav button{
   width: 132px;
   height: 48px;
-  border-radius: 16px;
+  border-radius: 14px;
   margin-right: 100px;
   background-color: #4E47FF;
   border: none;
@@ -94,7 +90,7 @@ nav button a{
 .banner button{
  margin-top: 40px;
  border: none;
- border-radius: 16px;
+ border-radius: 14px;
  background-color: #4E47FF;
  width: 174px;
  height: 48px;
@@ -104,4 +100,44 @@ nav button a{
   color: white;
   font-size: 16px;
   font-weight: bold;
+}
+
+.action{
+  width: 1140px;
+  height: 328px;
+  margin: 0 auto;
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: white; */
+}
+.left{
+  margin: auto 0px;
+}
+.action-header{
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.action-detail{
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 20px;
+}
+.left button{
+  border: none;
+  background-color: #4E47FF;
+  width: 229px;
+  height: 48px;
+  border-radius: 12px;
+}
+.left button a{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.right img{
+  border-radius: 16px;
 }
