@@ -25,7 +25,6 @@
   padding: 0;
 }
 body{
-  /* max-width: 1440px; */
   background-color: rgb(245, 248, 255);
 }
 header{
@@ -72,7 +71,6 @@ nav button a{
 
 .banner{
   margin: 0 auto;
-  /* border: 5px solid tomato; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,6 +100,12 @@ nav button a{
   font-weight: bold;
 }
 
+
+
+
+
+
+
 .action{
   width: 1140px;
   height: 328px;
@@ -109,7 +113,7 @@ nav button a{
   margin-top: 110px;
   display: flex;
   justify-content: space-between;
-  /* background-color: white; */
+
 }
 .left{
   margin: auto 0px;
@@ -141,6 +145,12 @@ nav button a{
 .right img{
   border-radius: 24px;
 }
+
+
+
+
+
+
 
 .Productive-Users{
   background-color: rgba(77, 71, 255, 0.1);
@@ -182,6 +192,12 @@ nav button a{
 .data-all{
   text-align: center;
 }
+
+
+
+
+
+
 
 .feedback{
   width: 1140px;
@@ -243,3 +259,73 @@ nav button a{
   font-family: sans-serif;
   color: rgba(37, 36, 50, 0.4);
 }
+
+
+
+
+
+
+
+.get-in-touch{
+  width: 1140px;
+  height: 632px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.touch-header{
+  margin: 200px auto;
+  margin-left: 0;
+  width: 528px;
+  height: 232px;
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.form{
+
+  width: 495px;
+  height: 490px;
+  margin: 70px auto;
+  margin-right: 0;
+}
+
+form label{
+  margin-left: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+input[type="email"],input[type="text"]
+{
+   width: 465px;
+   height: 70px;
+   border-radius: 10px;
+   border: none;
+   padding-left: 32px;
+}
+textarea{
+  width: 433px;
+  height: 135px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 32px;
+  resize: none;
+}
+.form-btn
+{
+  background-color: rgba(78, 71, 255, 1);
+  border: none;
+  width: 497px;
+  height: 62px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
